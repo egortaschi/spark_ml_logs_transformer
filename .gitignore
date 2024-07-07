@@ -9,6 +9,12 @@ __pycache__/
 # Distribution / packaging
 /ml_env
 .idea/
+.ipynb_checkpoints
+.ipython
+.jupyter
+.local
+.npm
+.DS_Store
 .Python
 build/
 develop-eggs/

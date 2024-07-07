@@ -1,0 +1,8 @@
+version: "3"
+services:
+  pyspark:
+    image: "jupyter/all-spark-notebook"
+    volumes:
+      - /Users/etaschilov/Projects/spark_ml_logs_transformer/app:/home/jovyan
+    ports:
+      - 8888:8888
